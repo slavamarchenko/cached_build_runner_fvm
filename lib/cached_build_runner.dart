@@ -262,7 +262,7 @@ class CachedBuildRunner {
     /// instead of relying on the flutter pub run command
     /// there can be issues with flutter being in the path.
     final process = Process.runSync(
-      'flutter',
+      'fvm flutter',
       [
         'pub',
         'run',
